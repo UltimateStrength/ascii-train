@@ -1,0 +1,26 @@
+﻿
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : [{"name":".gitignore","path":".gitignore","sha":"6f6ba169add2a6293c6beff33e80aab5a3b1aa88","size":8
+                    24,"url":"https://api.github.com/repos/developtheweb/slTrain/contents/.gitignore?ref=main","html_ur
+                    l"...
+RawContent        : HTTP/1.1 200 OK
+                    Access-Control-Allow-Origin: *
+                    Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, 
+                    X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit...
+Forms             : {}
+Headers           : {[Access-Control-Allow-Origin, *], [Access-Control-Expose-Headers, ETag, Link, Location, 
+                    Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, 
+                    X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, 
+                    X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning], 
+                    [Content-Security-Policy, default-src 'none'], [Referrer-Policy, origin-when-cross-origin, 
+                    strict-origin-when-cross-origin]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 6925
+
+
+

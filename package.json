@@ -1,0 +1,19 @@
+{
+  "name": "ascii-train",
+  "version": "1.0.0",
+  "description": "Animated train SVG for GitHub profile READMEs — generated daily with random compositions.",
+  "main": "src/generate-train.js",
+  "scripts": {
+    "generate": "node src/generate-train.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svg",
+    "animation",
+    "github",
+    "profile",
+    "train"
+  ],
+  "author": "UltimateStrength",
+  "license": "MIT"
+}
