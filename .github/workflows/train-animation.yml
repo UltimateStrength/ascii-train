@@ -1,0 +1,31 @@
+name: Animated Train
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-train:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate train SVG
+        run: npm run generate
+
+      - name: Commit generated SVG
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output/train.svg
+          git diff --staged --quiet || git commit -m "🚂 Regenerate animated train SVG"
+          git push
